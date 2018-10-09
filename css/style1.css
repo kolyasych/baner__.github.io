@@ -1,0 +1,60 @@
+
+.exitblock {    
+    display:none;    
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:100000;
+}    
+.exitblock .fon {
+    background: #F6FCFF;
+    opacity:.8;
+    position:fixed;
+    width:100%;
+    height:100%;
+}
+.exitblock .modaltext {
+	display: none;
+    width: 980px;
+    height: 500px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	color: white;  
+    border-radius: 15px;
+    background:  #1A48AD;
+	font-family: Comic Sans MS sans-serif;
+	transform: translateX(-50%) translateY(-50%);
+}    
+
+
+.closeblock {
+   position: fixed; 
+	left: 97%; 
+	top: -3%;  
+	background: url(../img/delete.png) 0 0px; 
+	width: 44px;
+	height: 44px;
+	cursor: pointer;
+}
+
+
+.modaltext h6 {
+	font-size: 0.8em;
+}
+
+.modaltext img {
+	margin-bottom: 20px;
+}
+
+.col-3 {
+	margin-right: -30px;
+}
+
+ .modaltext img {
+	border: 5px solid #009eea;
+	border-radius: 10px;
+}
+
